@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo"><i class="fas fa-brain"></i> AI Analysis</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h1><i class="fas fa-brain"></i> AI Text Analysis</h1>
+            <p>Analyze text for language, sentiment, key phrases, and more!</p>
+
+            <textarea id="textInput" placeholder="Type or paste text here..."></textarea>
+            
+            <button class="analyze-btn" onclick="analyzeText()">
+                <i class="fas fa-search"></i> Analyze Text
+            </button>
+
+            <!-- Loader Animation -->
+            <div class="loader" id="loader"></div>
+
+            <!-- Output Box -->
+            <div id="output" class="output-box"></div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 AI Text Analysis. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
